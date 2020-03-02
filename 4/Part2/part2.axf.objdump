@@ -1,0 +1,73 @@
+
+D:/Lab4/part2.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+/* Program that counts consecutive 1's */
+
+          .text                   // executable code follows
+          .global _start
+_start:
+          MOV     R5, #0
+   0:	e3a05000 	mov	r5, #0
+          MOV     R3, #TEST_NUM   // load the data word ...
+   4:	e3a0304c 	mov	r3, #76	; 0x4c
+
+00000008 <MAIN>:
+MAIN:     LDR     R1, [R3]        // into R1
+   8:	e5931000 	ldr	r1, [r3]
+          CMP     R1, #0          // See if we're at the end of the list
+   c:	e3510000 	cmp	r1, #0
+          BEQ     END             // Finish if at end
+  10:	0a000005 	beq	2c <END>
+          BL      ONES            // If not, count ones!
+  14:	eb000005 	bl	30 <ONES>
+          CMP     R5, R0          // Compare between largest 1 streak & current
+  18:	e1550000 	cmp	r5, r0
+          MOVLT   R5, R0          // If current is larger, delet old
+  1c:	b1a05000 	movlt	r5, r0
+          MOVLT   R4, R1          // Put largest value into R4 for debugging
+  20:	b1a04001 	movlt	r4, r1
+          ADD     R3, #4          // Onto the next number
+  24:	e2833004 	add	r3, r3, #4
+          B       MAIN
+  28:	eafffff6 	b	8 <MAIN>
+
+0000002c <END>:
+END:      B       END
+  2c:	eafffffe 	b	2c <END>
+
+00000030 <ONES>:
+
+// Subroutine to count consecutive ones
+ONES:     MOV     R0, #0          // R0 will hold the result
+  30:	e3a00000 	mov	r0, #0
+
+00000034 <LOOP>:
+LOOP:     CMP     R1, #0          // loop until the data contains no more 1's
+  34:	e3510000 	cmp	r1, #0
+          BXEQ    LR
+  38:	012fff1e 	bxeq	lr
+          LSR     R2, R1, #1      // perform SHIFT, followed by AND
+  3c:	e1a020a1 	lsr	r2, r1, #1
+          AND     R1, R1, R2
+  40:	e0011002 	and	r1, r1, r2
+          ADD     R0, #1          // count the string length so far
+  44:	e2800001 	add	r0, r0, #1
+          B       LOOP
+  48:	eafffff9 	b	34 <LOOP>
+
+0000004c <TEST_NUM>:
+  4c:	103fe00f 	.word	0x103fe00f
+  50:	fffffffe 	.word	0xfffffffe
+  54:	00000001 	.word	0x00000001
+  58:	55555555 	.word	0x55555555
+  5c:	12345678 	.word	0x12345678
+  60:	42042042 	.word	0x42042042
+  64:	99999999 	.word	0x99999999
+  68:	11111111 	.word	0x11111111
+  6c:	45673456 	.word	0x45673456
+  70:	13540974 	.word	0x13540974
+  74:	00000000 	.word	0x00000000

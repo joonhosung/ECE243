@@ -1,0 +1,146 @@
+
+D:/Lab4/part3.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+/* Program that counts consecutive 1's */
+
+          .text                   // executable code follows
+          .global _start
+_start:
+          MOV     R5, #0          // Ones
+   0:	e3a05000 	mov	r5, #0
+          MOV     R6, #0          // Zeros
+   4:	e3a06000 	mov	r6, #0
+          MOV     R7, #0          // Alternating
+   8:	e3a07000 	mov	r7, #0
+          MOV     R3, #TEST_NUM   // load the data word ...
+   c:	e3a030c8 	mov	r3, #200	; 0xc8
+
+00000010 <MAIN>:
+MAIN:     LDR     R1, [R3]        // into R1
+  10:	e5931000 	ldr	r1, [r3]
+          CMP     R1, #0          // See if we're at the end of the list
+  14:	e3510000 	cmp	r1, #0
+          BEQ     END             // Finish if at end
+  18:	0a00000c 	beq	50 <END>
+          BL      ONES            // If not, count ones!
+  1c:	eb00000c 	bl	54 <ONES>
+          CMP     R5, R0          // Compare between largest 1 streak & current
+  20:	e1550000 	cmp	r5, r0
+          MOVLT   R5, R0          // If current is larger, delet old
+  24:	b1a05000 	movlt	r5, r0
+          LDR     R1, [R3]        // Restore value
+  28:	e5931000 	ldr	r1, [r3]
+          BL      ZEROS
+  2c:	eb00000f 	bl	70 <ZEROS>
+          CMP     R6, R0
+  30:	e1560000 	cmp	r6, r0
+          MOVLT   R6, R0
+  34:	b1a06000 	movlt	r6, r0
+          LDR     R1, [R3]        // Restore value
+  38:	e5931000 	ldr	r1, [r3]
+          BL      ALT
+  3c:	eb000013 	bl	90 <ALT>
+          CMP     R7, R0
+  40:	e1570000 	cmp	r7, r0
+          MOVLT   R7, R0
+  44:	b1a07000 	movlt	r7, r0
+          ADD     R3, #4          // Onto the next number
+  48:	e2833004 	add	r3, r3, #4
+          B       MAIN
+  4c:	eaffffef 	b	10 <MAIN>
+
+00000050 <END>:
+END:      B       END
+  50:	eafffffe 	b	50 <END>
+
+00000054 <ONES>:
+
+// Subroutine to count consecutive ones
+ONES:     MOV     R0, #0          // R0 will hold the result
+  54:	e3a00000 	mov	r0, #0
+
+00000058 <LOOPO>:
+LOOPO:    CMP     R1, #0          // loop until the data contains no more 1's
+  58:	e3510000 	cmp	r1, #0
+          BXEQ    LR
+  5c:	012fff1e 	bxeq	lr
+          LSR     R2, R1, #1      // perform SHIFT, followed by AND
+  60:	e1a020a1 	lsr	r2, r1, #1
+          AND     R1, R1, R2
+  64:	e0011002 	and	r1, r1, r2
+          ADD     R0, #1          // count the string length so far
+  68:	e2800001 	add	r0, r0, #1
+          B       LOOPO
+  6c:	eafffff9 	b	58 <LOOPO>
+
+00000070 <ZEROS>:
+
+// Subroutine to count consecutive zeros
+ZEROS:    MOV     R0, #0          // R0 will hold the result
+  70:	e3a00000 	mov	r0, #0
+          MVN     R1, R1          // Complement register, so ONES = !ZEROS
+  74:	e1e01001 	mvn	r1, r1
+
+00000078 <LOOPZ>:
+LOOPZ:    CMP     R1, #0          // loop until the data contains no more 1's
+  78:	e3510000 	cmp	r1, #0
+          BXEQ    LR
+  7c:	012fff1e 	bxeq	lr
+          LSR     R2, R1, #1      // perform SHIFT, followed by AND
+  80:	e1a020a1 	lsr	r2, r1, #1
+          AND     R1, R1, R2
+  84:	e0011002 	and	r1, r1, r2
+          ADD     R0, #1          // count the string length so far
+  88:	e2800001 	add	r0, r0, #1
+          B       LOOPZ
+  8c:	eafffff9 	b	78 <LOOPZ>
+
+00000090 <ALT>:
+
+// Subroutine to count alternating 1s and 0s
+ALT:      MOV     R0, #0
+  90:	e3a00000 	mov	r0, #0
+          MOV     R4, #ALT_CMP   // Temp. storage of ALT_CMP and value of ONES
+  94:	e3a040c4 	mov	r4, #196	; 0xc4
+          LDR     R4, [R4]
+  98:	e5944000 	ldr	r4, [r4]
+          EOR     R1, R4, R1     // Get XOR of ALT_CMP and values.
+  9c:	e0241001 	eor	r1, r4, r1
+          PUSH    {LR, R1}       // Store LR for BL and R1 to use later
+  a0:	e92d4002 	push	{r1, lr}
+          BL      ONES           // Get the total number of ones from above EOR
+  a4:	ebffffea 	bl	54 <ONES>
+          MOV     R4, R0         // Store result of ONES in R4
+  a8:	e1a04000 	mov	r4, r0
+          POP     {R1}           // Restore XOR result since ONES overwrites R1     
+  ac:	e49d1004 	pop	{r1}		; (ldr r1, [sp], #4)
+          BL      ZEROS          // Get total number of zeros from above EOR
+  b0:	ebffffee 	bl	70 <ZEROS>
+          POP     {LR}           // Restore LR
+  b4:	e49de004 	pop	{lr}		; (ldr lr, [sp], #4)
+          CMP     R0, R4         // Compare results from ZEROS and ONES
+  b8:	e1500004 	cmp	r0, r4
+          MOVLT   R0, R4         // if R0 < R4 then R0 <= R4
+  bc:	b1a00004 	movlt	r0, r4
+          BX      LR             // We're done, return back to MAIN.
+  c0:	e12fff1e 	bx	lr
+
+000000c4 <ALT_CMP>:
+  c4:	55555555 	.word	0x55555555
+
+000000c8 <TEST_NUM>:
+  c8:	103fe00f 	.word	0x103fe00f
+  cc:	ffffffff 	.word	0xffffffff
+  d0:	00000001 	.word	0x00000001
+  d4:	23345298 	.word	0x23345298
+  d8:	12345678 	.word	0x12345678
+  dc:	42042042 	.word	0x42042042
+  e0:	99999999 	.word	0x99999999
+  e4:	11111111 	.word	0x11111111
+  e8:	15673456 	.word	0x15673456
+  ec:	13540974 	.word	0x13540974
+  f0:	00000000 	.word	0x00000000

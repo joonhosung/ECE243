@@ -1,0 +1,804 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/OneDrive/University of Toronto/01 - Courses/Year 2/Term 2/ECE243 - Computer Organization/Labs/2/Design_Files-2/part5.Verilog/ModelSim/testbench.v}
+do testbench.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:22 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(135): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(128): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:03:22 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:03:22 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:03:22 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:03:23 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(236): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(289).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Error: (vish-4014) No objects found matching '/testbench/U1/U3/cond'.
+# Executing ONERROR command at macro ./wave.do line 23
+
+do testbench.tcl
+# End time: 21:09:07 on Feb 03,2020, Elapsed time: 0:05:44
+# Errors: 3, Warnings: 1
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:07 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(135): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(128): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:09:07 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:09:08 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:09:08 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:09:08 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vish-4014) No objects found matching '/testbench/U1/U3/cond'.
+# Executing ONERROR command at macro ./wave.do line 23
+do testbench.tcl
+# End time: 21:13:33 on Feb 03,2020, Elapsed time: 0:04:25
+# Errors: 3, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:33 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(137): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(130): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:13:34 on Feb 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:13:34 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:13:34 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:13:34 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+do testbench.tcl
+# End time: 21:18:27 on Feb 03,2020, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:18:27 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(135): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(130): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:18:27 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:18:27 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:18:27 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:18:27 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+do testbench.tcl
+# End time: 21:21:54 on Feb 03,2020, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:21:54 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Error: (vlog-13025) ../proc.v(131): near ":": Syntax error. Statement labels are only allowed in SystemVerilog.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# End time: 21:21:55 on Feb 03,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.tcl line 14
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:16 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:23:16 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:23:16 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:23:16 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:23:16 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+do testbench.tcl
+# End time: 21:44:37 on Feb 03,2020, Elapsed time: 0:21:21
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:44:37 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:44:37 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:44:37 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:44:37 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:44:37 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 21:46:40 on Feb 03,2020, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:40 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:46:40 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:46:40 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:46:41 on Feb 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:46:41 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 21:48:42 on Feb 03,2020, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:48:42 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:48:42 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:48:42 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:48:42 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:48:42 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 21:50:28 on Feb 03,2020, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:50:28 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:50:28 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:50:28 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:50:28 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:50:28 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 21:58:13 on Feb 03,2020, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:13 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 21:58:14 on Feb 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:58:14 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:58:14 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 21:58:14 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(232): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(285).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(232): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(285).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 22:00:35 on Feb 03,2020, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:35 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 22:00:35 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:35 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:00:35 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 22:00:35 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(226): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(279).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 22:02:18 on Feb 03,2020, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:18 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 22:02:18 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:02:18 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:02:18 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 22:02:18 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(227): [PCDPC] - Port size (16) does not match connection size (17) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(227): [PCDPC] - Port size (16) does not match connection size (17) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_G File: ../proc.v
+do testbench.tcl
+# End time: 22:04:29 on Feb 03,2020, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:04:29 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# ** Error: ../proc.v(281): (vlog-2730) Undefined variable: 'n'.
+# ** Error: ../proc.v(280): Identifier must be declared with a port mode: R.
+# ** Error: ../proc.v(280): Identifier must be declared with a port mode: n.
+# -- Compiling module seg7
+# -- Compiling module regne
+# End time: 22:04:29 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.tcl line 14
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:05:12 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# ** Error: ../proc.v(282): Range must be bounded by constant expressions.
+# ** Error: ../proc.v(285): Range must be bounded by constant expressions.
+# -- Compiling module seg7
+# -- Compiling module regne
+# End time: 22:05:12 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.tcl line 14
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:05:27 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# ** Error: (vlog-13069) ../proc.v(281): near "parameter": syntax error, unexpected parameter.
+# ** Error: ../proc.v(282): (vlog-2730) Undefined variable: 'n'.
+# ** Error: ../proc.v(280): Identifier must be declared with a port mode: R.
+# ** Error: ../proc.v(280): Identifier must be declared with a port mode: n.
+# -- Compiling module seg7
+# -- Compiling module regne
+# End time: 22:05:27 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.tcl line 14
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:06:45 on Feb 03,2020
+# vlog -reportprogress 300 ../flipflop.v ../inst_mem.v ../part5.v ../proc.v ../seg7.v 
+# -- Compiling module flipflop
+# -- Compiling module inst_mem
+# -- Compiling module part5
+# -- Compiling module proc
+# ** Warning: ../proc.v(129): (vlog-2182) 'c' might be read before written in always_comb or always @* block.
+# ** Warning: ../proc.v(127): (vlog-2182) 'z' might be read before written in always_comb or always @* block.
+# -- Compiling module pc_count
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# -- Compiling module seg7
+# -- Compiling module regne
+# 
+# Top level modules:
+# 	part5
+# End time: 22:06:45 on Feb 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:06:45 on Feb 03,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 22:06:46 on Feb 03,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 22:06:46 on Feb 03,2020
+# Loading work.testbench
+# Loading work.part5
+# Loading work.flipflop
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.pc_count
+# Loading work.inst_mem
+# Loading altera_mf_ver.altsyncram
+# Loading work.seg7
+# Loading work.regne
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ../proc.v(199): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_0 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(199): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_0 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(200): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_1 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(200): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_1 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(201): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_2 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(201): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_2 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(202): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_3 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(202): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_3 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(203): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_4 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(203): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_4 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(204): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_5 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(204): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_5 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(205): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_6 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(205): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_6 File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(211): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_A File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(211): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_A File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(212): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_DOUT File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(212): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_DOUT File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(213): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_ADDR File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(213): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_ADDR File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(214): [PCDPC] - Port size (17) does not match connection size (16) for port 'R'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_IR File: ../proc.v
+# ** Warning: (vsim-3015) ../proc.v(214): [PCDPC] - Port size (17) does not match connection size (16) for port 'Q'. The port definition is at: ../proc.v(280).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/U1/U3/reg_IR File: ../proc.v
+# End time: 11:09:23 on Feb 06,2020, Elapsed time: 61:02:37
+# Errors: 0, Warnings: 22
