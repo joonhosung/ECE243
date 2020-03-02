@@ -1,0 +1,184 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Junho Sung/OneDrive/University of Toronto/01 - Courses/Year 2/Term 2/ECE243 - Computer Organization/Labs/1/Design_Files-1/part1.Verilog/ModelSim/wave.do}
+dir
+#  Volume in drive D is 로컬 디스크
+#  Volume Serial Number is 5C27-B48B
+# 
+#  Directory of D:\Junho Sung\OneDrive\University of Toronto\01 - Courses\Year 2\Term 2\ECE243 - Computer Organization\Labs\1\Design_Files-1\part1.Verilog\ModelSim
+# 
+# 01/29/2020  02:30 AM    <DIR>          .
+# 01/29/2020  02:30 AM    <DIR>          ..
+# 05/18/2019  02:25 PM               485 testbench.tcl
+# 05/19/2019  05:23 PM             1,017 testbench.v
+# 01/30/2020  12:00 AM               235 transcript
+# 05/18/2019  02:20 PM             1,631 wave.do
+#                4 File(s)          3,368 bytes
+#                2 Dir(s)  231,758,581,760 bytes free
+do wave.do
+do wave.do
+do testbench.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:33 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 00:36:33 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:36:33 on Jan 30,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:36:33 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 00:36:34 on Jan 30,2020
+# Loading work.testbench
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+
+do testbench.tcl
+# End time: 00:46:35 on Jan 30,2020, Elapsed time: 0:10:01
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:46:35 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 00:46:35 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:46:35 on Jan 30,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:46:35 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 00:46:35 on Jan 30,2020
+# Loading work.testbench
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+do testbench.tcl
+# End time: 00:55:47 on Jan 30,2020, Elapsed time: 0:09:12
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:55:47 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 00:55:48 on Jan 30,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:55:48 on Jan 30,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:55:48 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 00:55:48 on Jan 30,2020
+# Loading work.testbench
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+do testbench.tcl
+# End time: 00:56:38 on Jan 30,2020, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:56:38 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 00:56:38 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:56:38 on Jan 30,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:56:38 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 00:56:39 on Jan 30,2020
+# Loading work.testbench
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+do testbench.tcl
+# End time: 00:57:42 on Jan 30,2020, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:57:42 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# ** Error: ../proc.v(110): (vlog-2730) Undefined variable: 'Sel_zG'.
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# End time: 00:57:42 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testbench.tcl line 8
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do testbench.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:00 on Jan 30,2020
+# vlog -reportprogress 300 ../proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 00:58:00 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:00 on Jan 30,2020
+# vlog -reportprogress 300 testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:58:00 on Jan 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.testbench -Lf 220model -Lf altera_mf_ver -Lf verilog 
+# Start time: 00:58:01 on Jan 30,2020
+# Loading work.testbench
+# Loading work.proc
+# Loading work.dec3to8
+# Loading work.regn
+# End time: 02:42:00 on Jan 30,2020, Elapsed time: 1:43:59
+# Errors: 0, Warnings: 0
